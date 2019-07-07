@@ -1,0 +1,10 @@
+* Binding Events
+=Bindevent(0,256,This,'KeyDown')   && 256 = KeyDown
+=Bindevent(0,257,This,'KeyUp')     && 257 = KeyUp
+
+* Parameters Methods
+Lparameters hWnd, Msg, wParam, lParam
+
+* Arrows codes
+37 Left
+39 Right
